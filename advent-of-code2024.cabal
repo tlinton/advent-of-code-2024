@@ -48,6 +48,13 @@ build-type:         Simple
 common warnings
     ghc-options: -Wall
 
+executable day7-1
+    import:           warnings
+    main-is:          day7-1.hs
+    build-depends:    base ^>=4.17.2.1, split ^>= 0.2.5
+    hs-source-dirs:   day7
+    default-language: Haskell2010
+
 executable day6-2
     import:           warnings
     main-is:          day6-2.hs
